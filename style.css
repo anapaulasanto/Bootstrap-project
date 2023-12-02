@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap');
+
+ :root {
+    --fonte-nav: 'Montserrat', sans-serif;
+ }  
+
+.container-nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: #F5F3F4;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+}
+
+span {
+    font-family: var(--fonte-nav);
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-family: var(--fonte-nav);
+    
+    margin: 0;
+    
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container-main {
+    background-image: url(assets/img-container-main.jfif);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    margin-top: 50vh;
+    color: white;
+}
+
+.text-cabecalho > p {
+    font-size: 16px;
+}
+
+.container-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > img {
+    width: 100px;
+    height: 100px;
+}
+
+.card > p {
+    width: 220px;
+}
+
+.card > h3 {
+    font-size: 20px;
+}
