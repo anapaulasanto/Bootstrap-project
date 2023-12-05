@@ -68,30 +68,3 @@ span {
     font-size: 16px;
 }
 
-.container-icons {
-    padding: 50px 0;
-}
-
-section  ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    gap: 10px;
-}
-
-section li {
-    text-align: center;
-}
-
-section li img {
-    width: 100px;
-    height: 100px;
-}
-
-section li h3 {
-    margin-top: 15px;
-    font-size: 20px;
-}
