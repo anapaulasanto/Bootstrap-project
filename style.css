@@ -68,29 +68,30 @@ span {
     font-size: 16px;
 }
 
-.container-section {
-    display: flex;
-    flex-direction: row;
+.container-icons {
+    padding: 50px 0;
 }
 
-.card {
-    width: 300px;
-    margin-top: 30px;
+section  ul {
     display: flex;
-    flex-direction: column;
+    list-style-type: none;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
 }
 
-.card > img {
+section li {
+    text-align: center;
+}
+
+section li img {
     width: 100px;
     height: 100px;
 }
 
-.card > p {
-    width: 220px;
-}
-
-.card > h3 {
+section li h3 {
+    margin-top: 15px;
     font-size: 20px;
 }
